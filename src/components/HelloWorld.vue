@@ -82,7 +82,7 @@
         <td>{{book.type}}</td>
         <td>{{book.price}}</td>
         <td>{{book.author}}</td>
-        <td> <button type="button" name="button" class="button is-danger is-small" @click="del(book)">ลบ</button> </td>
+        <td> <button type="button" name="button" class="button is-warning is-small" @click="del(book)">ลบ</button> </td>
         </tr>
       </table>
     </div>
